@@ -5,9 +5,11 @@ public class CashbackHacker {
 
     public int remain(int amount) {
         int remainder = amount % boundary;
+
         if (remainder == 0) {
             return 0;
         }
+
         return boundary - remainder;
     }
 }
